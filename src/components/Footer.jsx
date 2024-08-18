@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div class="footer__right">
           &copy; 2023 webstoryboy<br />
-          이 사이트는 비트를 이용하여 제작하였습니다.
+          이 사이트는 넥스트를 이용하여 제작하였습니다.
         </div>
       </div>
     </footer>
