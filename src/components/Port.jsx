@@ -38,7 +38,7 @@ const Port = () => {
     <section id="port" ref={horizontalRef}>
       <div className="port__inner">
         <h2 className="port__title">
-          portfolio <em>포폴 작업물</em>
+          skills <em>강점 역량</em>
         </h2>
         <div className="port__wrap">
           {portText.map((port, key) => (
@@ -53,7 +53,6 @@ const Port = () => {
               </a>
               <h3 className="title">{port.title}</h3>
               <p className="desc">{port.desc}</p>
-              <a href={port.view} target="_blank" className="site">사이트 보기</a>
             </article>
           ))}
         </div>
