@@ -8,8 +8,6 @@ import together from "../assets/img/together.PNG";
 import socialskill from "../assets/img/socialskill.PNG";
 import effort from "../assets/img/effort.PNG";
 
-
-
 export const headerNav = [
   {
     title: "top",
@@ -58,8 +56,8 @@ export const siteText = [
   {
     text: ["make", "site compliant with", "next.js"],
     title: "넥스트를 이용한 포트폴리오 사이트 제작(react와 vite로도 만들어보았습니다)",
-    code: "https://github.com/pitepan3/port2023-next",
-    view: "https://port2023-next.netlify.app",
+    code: "https://github.com/pitepan3/Port-next",
+    view: "https://donghoon-port-next.netlify.app/",
     info: [
       "site coding",
       "production period : seven days",
@@ -68,9 +66,9 @@ export const siteText = [
   },
   {
     text: ["넥스트를 이용한 부동산 사이트 제작"],
-    title: "공공데이터 포털 부동산 실거래 오픈api를 이용하여 법정동코드 좌표의 거래 정보들을 표현해보았습니다.",
+    title: "카카오, 네이버 로그인/로그아웃 기능과 공공데이터 포털 부동산 실거래 오픈api를 이용하여 법정동코드 좌표의 거래 정보들을 표현해보았습니다.(배포시 api키 오류가 있습니다. 추후 해결 예정입니다.)",
     code: "https://github.com/pitepan3/practice-next.js",
-    view: "https://port2023-vue.netlify.app",
+    view: "https://hoons-realestate.netlify.app",
     info: [
       "site coding",
       "production period : one month",
@@ -130,7 +128,7 @@ export const portText = [
     name: "친화력 설명",
   },
   {
-    num: "8",
+    num: "08",
     title: "앞으로의 계획 / 입사 후 포부",
     desc: "입사 후에도 현재 상황에 안주하지 않고 주도적인 학습을 통해 끊임없는 자기계발을 통해 풀스텍 개발자가 될수 있도록 노력하겠습니다. 또한, 시간이 흘러 후배가 들어온다면 부끄러운 선배가 아닌 멘토같은, 팀에 꼭 필요한 인재가 되겠습니다. ",
     img: effort,
@@ -146,43 +144,5 @@ export const contactText = [
   {
     link: "mailto:pitepan3@naver.com",
     title: "mail : pitepan3@naver.com",
-  },
-];
-
-export const footerText = [
-  {
-    title: "youtube",
-    desc: "유튜브에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link: "https://www.youtube.com/@Webstoryboy",
-  },
-  {
-    title: "github",
-    desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
-    link: "https://github.com/webstoryboy",
-  },
-  {
-    title: "blog",
-    desc: "블러그에 오시면 더 많은 정보를 볼 수 있습니다.",
-    link: "https://webstoryboy.co.kr",
-  },
-  {
-    title: "gsap",
-    desc: "GSAP에 오시면 더 많은 강의를 볼 수 있습니다.",
-    link: "https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq",
-  },
-  {
-    title: "react",
-    desc: "리액트로 만든 사이트를 같이 만들어 봅니다.",
-    link: "https://github.com/webstoryboy/port2023-react",
-  },
-  {
-    title: "vue",
-    desc: "뷰로 만든 사이트를 같이 만들어 봅니다.",
-    link: "https://github.com/webstoryboy/port2023-vue",
-  },
-  {
-    title: "next",
-    desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
-    link: "https://github.com/webstoryboy/port2023-next",
   },
 ];
