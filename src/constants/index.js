@@ -57,7 +57,7 @@ export const skillText = [
 export const siteText = [
   {
     text: ["make", "site compliant with", "next.js"],
-    title: "넥스트를 이용한 포트폴리오 사이트 제작",
+    title: "넥스트를 이용한 포트폴리오 사이트 제작(react와 vite로도 만들어보았습니다)",
     code: "https://github.com/pitepan3/port2023-next",
     view: "https://port2023-next.netlify.app",
     info: [
