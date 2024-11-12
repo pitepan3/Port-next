@@ -38,7 +38,7 @@ const Port = () => {
     <section id="port" ref={horizontalRef}>
       <div className="port__inner">
         <h2 className="port__title">
-          skills <em>강점 역량</em>
+          desc <em>강점 역량</em>
         </h2>
         <div className="port__wrap">
           {portText.map((port, key) => (
@@ -48,7 +48,7 @@ const Port = () => {
               ref={(el) => (sectionRef.current[key] = el)}
             >
               <span className="num">{port.num}.</span>
-              <a href={port.code} target="_blank" className="img">
+              <a target="_blank" className="img">
                 <Image src={port.img} alt={port.name} width={420} height={262} />
               </a>
               <h3 className="title">{port.title}</h3>

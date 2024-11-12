@@ -8,7 +8,6 @@ import Skill from "@/components/Skill";
 import Site from "@/components/Site";
 import Port from "@/components/Port";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import smooth from "@/utils/smooth";
 import link from "@/utils/link";
 
@@ -28,7 +27,6 @@ export default function Home() {
         <Port />
         <Contact />
       </main>
-      <Footer />
     </>
   )
 }
